@@ -3,7 +3,7 @@ function receivesAFunction(spy, another) {
   return(spy() + "" + another);
 }
 function greetings() {
-  let name= 'Jacob';
+  let name= 'danny';
  return`Hello ${name}`;
 }
 console.log(greetings());
@@ -19,9 +19,7 @@ function returnsAnAnonymousFunction () {
 }
 console.log(returnsAnAnonymousFunction());
 var fn= returnsAnAnonymousFunction();
-white_check_mark
-eyes
-raised_hands
+
 
 
 
